@@ -11,6 +11,7 @@ import Sold from './pages/sold';
 import Testimonials from './pages/testimonials';
 import Search from './pages/search';
 import Buyers from './pages/buyers';
+import Sellers from './pages/sellers';
 
 function App() {
 return (
@@ -26,6 +27,7 @@ return (
     <Route path='/testimonials' element={<Testimonials/>} />
     <Route path='/search' element={<Search/>} />
     <Route path='/buyers' element={<Buyers/>} />
+		<Route path='/sellers' element={<Sellers/>} />
 	</Routes>
 	</Router>
 );

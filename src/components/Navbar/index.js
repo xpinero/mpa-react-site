@@ -23,6 +23,9 @@ return (
       <NavLink to="/buyers" activeStyle>
         Buyers
       </NavLink>
+      <NavLink to="/sellers" activeStyle>
+        Sellers
+      </NavLink>
       <NavLink to="/contact" activeStyle>
         Contact Us
       </NavLink>
