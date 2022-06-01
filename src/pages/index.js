@@ -3,10 +3,15 @@ import styled from "styled-components";
 import landing from '../images/landing.jpg';
 
 const LandingImage = styled.div`
-	background-image: url(${landing})
-	height: 700px;
+	background-image: url(${landing});
+	height: 100vh;
+	width: 80vw;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	`
-
 const Home = () => {
 return (
 	<LandingImage>
