@@ -3,7 +3,6 @@ import styled from "styled-components";
 import about from '../images/about.jpg';
 
 const AboutImage = styled.div`
-	
 	background-image: url(${about});
 	height: 100vh;
 	width: 80vw;
