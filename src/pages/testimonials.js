@@ -1,12 +1,14 @@
 import React from "react";
+import { TransBox } from './PageElements';
+
 
 const Testimonials = () => {
 return (
-	<div>
+	<TransBox>
 	<h1>
 		Sync of all testimonials coming soon.
 	</h1>
-	</div>
+	</TransBox>
 );
 };
 
