@@ -19,22 +19,24 @@ const About = () => {
 return (
 	<AboutImage>
 		<TransBox>
-			<Text>{`I have been a realtor for ${years} years`}</Text>
-			<Text>Do you need help with buying or selling real estate?  Let me help you!
-			Real estate transactions can be stressful.   The process can be complicated, and people become more stressed when their agent is hard to reach. That is why you need a trusted agent who is detail-oriented and represents your best interests. Your agent does not have your best interests at heart if you can never get them on the phone.
+			<Text>Do you need help with buying or selling real estate?  Let me help you!<br></br>
 			
-			The best realtors in Chattanooga are accessible. I am a realtor who answers the phone! If I do happen to miss your call, you can be assured that I will contact you promptly.
-			
-			Get a helpful partner for buying or selling a home:
-			
-			Trusted resource for answers about the process
-			Strong negotiation skills
-			Innovative marketing strategies
-			Expertise about neighborhood features
-			Ability to target home searches
-			Honesty and integrity throughout every step of the process
-			Support through the closing and beyond</Text>
-			
+			<p>Real estate transactions can be stressful. The process can be complicated, and people become more stressed when their agent is hard to reach.<br></br> That is why you need a trusted agent who is detail-oriented and represents your best interests. Your agent does not have your best interests at heart if you can never get them on the phone.</p>
+
+			<p>The best realtors in Chattanooga are accessible. I am a realtor who answers the phone! If I do happen to miss your call, you can be assured that I will contact you promptly.</p>
+	
+			<p>Get a helpful partner for buying or selling your home who has these qualities:</p>
+			<ol>
+				<li>Trusted resource for answers about the process</li>
+				<li>Strong negotiation skills</li>
+				<li>Innovative marketing strategies</li>
+				<li>Expertise about neighborhood features</li>
+				<li>Ability to target home searches</li>
+				<li>Honesty and integrity throughout every step of the process</li>
+				<li>Support through the closing and beyond</li>
+				<li>{years} + years of real estate experience</li>
+			</ol>
+			</Text>
 		</TransBox>
 	</AboutImage>
 );
