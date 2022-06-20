@@ -9,7 +9,6 @@ import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
 import Contact from './pages/contact';
 import Sold from './pages/sold';
-import Testimonials from './pages/testimonials';
 import Search from './pages/search';
 import Buyers from './pages/buyers';
 import Sellers from './pages/sellers';
@@ -25,7 +24,6 @@ return (
 		<Route path='/blogs' element={<Blogs/>} />
 		<Route path='/sign-up' element={<SignUp/>} />
     <Route path='/sold' element={<Sold/>} />
-    <Route path='/testimonials' element={<Testimonials/>} />
     <Route path='/search' element={<Search/>} />
     <Route path='/buyers' element={<Buyers/>} />
 		<Route path='/sellers' element={<Sellers/>} />

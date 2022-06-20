@@ -10,9 +10,6 @@ return (
       <NavLink to="/about" activeStyle>
         About
       </NavLink>
-      <NavLink to="/testimonials" activeStyle>
-        Testimonials
-      </NavLink>
       <NavLink to="/sold" activeStyle>
         Sold
       </NavLink>
