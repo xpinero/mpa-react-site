@@ -1,5 +1,5 @@
 import React from "react";
-
+//import chad from '../../images/chad.jpg'
 import { Carousel } from 'react-carousel-minimal';
 
 
@@ -41,14 +41,15 @@ function Footer() {
    return (
      <div className="Footer">
        <div>
+         <div><img src="http://chadtrapp.com/wp-content/uploads/2017/10/trapp_chad-contact.jpg" alt="Chad Trapp"></img>Facebook</div> 
          <div style={{
            padding: "0 20px"
          }}>
            <Carousel
              data={data}
              time={2000}
-             width="850px"
-             height="1px"
+             width="150px"
+             height="150px"
              radius="10px"
              captionPosition="bottom"
              automatic={true}
@@ -56,7 +57,7 @@ function Footer() {
              pauseIconSize="40px"
              slideBackgroundColor="darkgrey"
              slideImageFit="cover"
-             thumbnails={true}
+             thumbnails={false}
              thumbnailWidth="150px"
              style={{
                textAlign: "center",
